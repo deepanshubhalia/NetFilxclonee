@@ -24,7 +24,10 @@ const nextConfig = {
         ]
       }
     ]
-  }
+  },
+  serverOptions: {
+    port: process.env.PORT || 3000, // Use the PORT environment variable or default to 3000
+  },
 }
 
 export default nextConfig
